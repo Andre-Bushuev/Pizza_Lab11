@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.pizza-card {
+  position: relative; 
+  max-width: 300px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px auto;
+}
+
+.pizza-card__label {
+  position: absolute; 
+  top: 10px; 
+  left: 10px; 
+  background: rgba(255, 0, 0, 0.8); 
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1; 
+}
+
+.pizza-card__image {
+  width: 100%; 
+  display: block;
+}
+
+.pizza-card__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.pizza-card__description {
+  font-size: 14px;
+  color: #555;
+  padding: 0 10px;
+}
+
+.pizza-card__controls {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pizza-card__size {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.pizza-card__quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.quantity-btn {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-btn:hover {
+  background: #ccc;
+}
+
+.pizza-card__price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.pizza-card__add-to-cart {
+  padding: 10px;
+  font-size: 16px;
+  color: #fff;
+  background: green;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pizza-card__add-to-cart:hover {
+  background: darkgreen;
+}
